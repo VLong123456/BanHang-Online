@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Bán Hàng Online </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BanHangOnl.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <span class="navbar-brand user-select-none " href="#"> Bán Hàng Online </span>
+                @* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> *@
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link"  asp-controllern="Home" asp-action="Index"> Trang Chủ </a>
+                        </li>
+
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  dropdown-toggle " role="button" data-bs-toggle="dropdown" asp-controllern="Home" asp-action="Privacy"> Sản Phẩm </a>
+                            <ul class="dropdown-menu dropdown-menu-dark ">
+                                <li><a class="dropdown-item" href="#"> Thiết Bị Di Động </a> </li>
+                                <li><a class="dropdown-item" href="#"> Thiết Bị Máy Tính </a> </li>
+                                <li><a class="dropdown-item" href="#"> Phẩn Mềm Thiết Bị </a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown " role="button" data-bs-toggle="dropdown" asp-controllern="Home" asp-action="Index"> Chính Sách  </a>
+                                <ul class="dropdown-menu dropdown-menu-dark ">
+                                    <li><a class="dropdown-item" href="#"> Thiết Bị Di Động </a> </li>
+                                    <li><a class="dropdown-item" href="#"> Thiết Bị Máy Tính </a> </li>
+                                    <li><a class="dropdown-item" href="#"> Phẩn Mềm Thiết Bị </a> </li>
+                                </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " asp-controllern="Home" asp-action="TrangChu"> Giới Thiệu   </a>
+                        </li>
+
+                    </ul>
+
+                    <form class="d-flex" role="search"  method = "POST" >
+                        <input name="p" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button  class="btn btn-outline-info " type="submit"> Search </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container pt-3 ">
+        <div role="main ">
+
+            @RenderBody()
+
+        </div>
+    </main>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - BanHangOnl - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

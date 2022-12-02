@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BanHang_Online.props" />
+</Project>
