@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
-namespace asp_web.Models.getWebData
+namespace banhang_online.Models.getWebData
 {
     public class GioHang
     {

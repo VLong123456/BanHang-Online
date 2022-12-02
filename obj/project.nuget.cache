@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NydEcTEwWZj4xXKvQcRkp75IqP+ltQUpEop371pM11rpD/ZvgKaPcXCqQshSAi9c9+Hv9b7OGvBIeZ5b+NqsIg==",
+  "dgSpecHash": "fYVbOv2NQzwoXW3DoN3DG6X+TMdjxNnTp0hmDz+g396QkhTDOhsyv1+OyjtuqN7Rsbf6yXisDGzgzH3ERBtfNQ==",
   "success": true,
-  "projectFilePath": "E:\\html_asp\\banHang_online\\BanHang_Online.csproj",
+  "projectFilePath": "E:\\html_asp\\banhang_online\\BanHang_Online.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Long\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Long\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

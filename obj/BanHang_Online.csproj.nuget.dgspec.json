@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\html_asp\\banHang_online\\BanHang_Online.csproj": {}
+    "E:\\html_asp\\banhang_online\\BanHang_Online.csproj": {}
   },
   "projects": {
-    "E:\\html_asp\\banHang_online\\BanHang_Online.csproj": {
+    "E:\\html_asp\\banhang_online\\BanHang_Online.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\html_asp\\banHang_online\\BanHang_Online.csproj",
+        "projectUniqueName": "E:\\html_asp\\banhang_online\\BanHang_Online.csproj",
         "projectName": "BanHang_Online",
-        "projectPath": "E:\\html_asp\\banHang_online\\BanHang_Online.csproj",
+        "projectPath": "E:\\html_asp\\banhang_online\\BanHang_Online.csproj",
         "packagesPath": "C:\\Users\\Long\\.nuget\\packages\\",
-        "outputPath": "E:\\html_asp\\banHang_online\\obj\\",
+        "outputPath": "E:\\html_asp\\banhang_online\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

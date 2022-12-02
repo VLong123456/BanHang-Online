@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BanHangOnl.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    
 </head>
 
 <body>
@@ -27,24 +28,32 @@
                         </li>
 
                         <li class="nav-item dropdown ">
-                            <a class="nav-link  dropdown-toggle " role="button" data-bs-toggle="dropdown" asp-controllern="Home" asp-action="Privacy"> Sản Phẩm </a>
-                            <ul class="dropdown-menu dropdown-menu-dark ">
+                            <a class="nav-link  dropdown-toggle  " role="button" data-bs-toggle="dropdown" asp-controller="Home" asp-action="Privacy"> Sản Phẩm </a>
+                            <ul class="dropdown-menu dropdown-menu-dark  " >
                                 <li><a class="dropdown-item" href="#"> Thiết Bị Di Động </a> </li>
                                 <li><a class="dropdown-item" href="#"> Thiết Bị Máy Tính </a> </li>
                                 <li><a class="dropdown-item" href="#"> Phẩn Mềm Thiết Bị </a> </li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link dropdown " role="button" data-bs-toggle="dropdown" asp-controllern="Home" asp-action="Index"> Chính Sách  </a>
+                        <li class="nav-item  dropdown ">
+                            <a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" asp-controller="Home" asp-action="Index"> Chính Sách  </a>
                                 <ul class="dropdown-menu dropdown-menu-dark ">
-                                    <li><a class="dropdown-item" href="#"> Thiết Bị Di Động </a> </li>
-                                    <li><a class="dropdown-item" href="#"> Thiết Bị Máy Tính </a> </li>
-                                    <li><a class="dropdown-item" href="#"> Phẩn Mềm Thiết Bị </a> </li>
+                                    <li><a class="dropdown-item" href="#"> Chính Sách Bảo Hành </a> </li>
+                                    <li><a class="dropdown-item" href="#"> Chính Sách Thanh Toán </a> </li>
+                                    <li><a class="dropdown-item" href="#"> Chính Sách Bảo Mật </a> </li>
                                 </ul>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link " asp-controllern="Home" asp-action="TrangChu"> Giới Thiệu   </a>
+                            <a class="nav-link " asp-controller="Home" asp-action="Index"> Giới Thiệu   </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " asp-controller="DangNhap" asp-action="DangNhap"> Dang Nhap   </a>
+                        </li>
+
+                            <li class="nav-item">
+                            <a class="nav-link " asp-controller="DangNhap" asp-action="DangKy"> Dang Ky   </a>
                         </li>
 
                     </ul>
@@ -57,13 +66,13 @@
             </div>
         </nav>
     </header>
-    <main class="container pt-3 ">
+    <div class="container pt-3 ">
         <div role="main ">
 
             @RenderBody()
 
         </div>
-    </main>
+    </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">

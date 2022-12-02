@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using asp_web.Models.getWebData;
+using banhang_online.Models.getWebData;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace asp_web.Models.setDbContext
+namespace banhang_online.Models.setDbContext
 {
     public class cls_DBContext : DbContext
     {

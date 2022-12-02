@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace asp_web.Models.getWebData
+namespace banhang_online.Models.getWebData
 {
     public class  ThongTinKhachHang
     {

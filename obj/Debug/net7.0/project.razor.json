@@ -16585,8 +16585,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\html_asp\\banhang_online\\Views\\DangNhap\\DangKy.cshtml",
+      "TargetPath": "Views\\DangNhap\\DangKy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\html_asp\\banhang_online\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\html_asp\\banhang_online\\Views\\DangNhap\\DangNhap.cshtml",
+      "TargetPath": "Views\\DangNhap\\DangNhap.cshtml",
       "FileKind": "mvc"
     }
   ],
