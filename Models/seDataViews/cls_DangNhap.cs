@@ -9,14 +9,14 @@ namespace banhang_online.Models.seDataViews
     public class cls_DangNhap
     {
         
-        public class Login  {
-            string username = " Nguyen Thanh Long ";
+        // public class Login  {
+        //     string username = " Nguyen Thanh Long ";
             
-        }
+        // }
 
-         public class name  {
-            string username = " Nguyen Thanh Long_2 ";
+        //  public class name  {
+        //     string username = " Nguyen Thanh Long_2 ";
             
-        }
+        // }
     }
 }
