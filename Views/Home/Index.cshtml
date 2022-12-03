@@ -1,6 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+
+
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -18,7 +20,7 @@
                 <div class="carousel-caption text-start">
                     <h1> Hedaline Product 1 </h1>
                     <p> Đăng Ký Tài Khoản ngay để mua nhanh chóng và hưởng nhiều ưu dãi hơn </p>
-                    <p><a class="btn btn-lg btn-primary" href="#"> Đăng Ký Ngay </a> </p>
+                    <p><a class="btn btn-lg btn-primary" asp-controller="NguoiDung" asp-action="DangNhap"> Đăng Ký Ngay </a> </p>
                 </div> 
             </div>
         </div>
@@ -31,7 +33,7 @@
                 <div class="carousel-caption">
                     <h1> Hedaline Product 2 </h1>
                     <p> Sản Phẩm chính hãng </p>
-                    <p><a class="btn btn-lg btn-primary" href="#"> Mua Hàng </a></p>
+                    <p><a class="btn btn-lg btn-primary" asp-controller="SanPham" asp-action="SanPham"> Mua Hàng </a></p>
                 </div>
             </div>
         </div>
@@ -42,8 +44,12 @@
             <div class="container">
                 <div class="carousel-caption text-end">
                     <h1> Hedaline Product 3 </h1>
-                    <p> Chính Sách Bảo Hành Tốt Nhất </p>
-                    <p><a class="btn btn-lg btn-primary" href="#"> Chính Sách Bảo Hành </a> </p>
+                    <p> Chính Sách Khách Hàng Tốt Nhất </p>
+                    <p>
+                        <a class="btn btn-lg btn-primary" asp-controller="ChinhSach" asp-action="ChinhSach">
+                            Chính Sách Bảo Hành 
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -55,7 +61,7 @@
                 <div class="carousel-caption text-end">
                     <h1> Hedaline Product 4 </h1>
                     <p> Nhân Viên Tận Tình Nhiệp Huyết </p>
-                    <p><a class="btn btn-lg btn-primary" href="#" > Giới Thiệu Công Ty </a> </p>
+                    <p><a class="btn btn-lg btn-primary" asp-controller="GioiThieu" asp-action="GioiThieu" > Giới Thiệu Công Ty </a> </p>
                 </div>
             </div>
         </div>
@@ -67,7 +73,7 @@
                 <div class="carousel-caption text-end">
                     <h1> Hedaline Product 5 </h1>
                     <p> Các Loại Sản Phẩm Đa dạng Thể Loại </p>
-                    <p><a class="btn btn-lg btn-primary" href="#"> Mua Hàng </a> </p>
+                    <p><a class="btn btn-lg btn-primary" asp-controller="SanPham" asp-action="SanPham" > Mua Hàng </a> </p>
                 </div>
             </div>
         </div>

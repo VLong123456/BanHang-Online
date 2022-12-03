@@ -521,6 +521,10 @@
       "PackagePath": "staticwebassets\\bootstrap-5.2.3-examples\\sticky-footer\\sticky-footer.css"
     },
     {
+      "Id": "E:\\html_asp\\banhang_online\\wwwroot\\css\\newDisplay.css",
+      "PackagePath": "staticwebassets\\css\\newDisplay.css"
+    },
+    {
       "Id": "E:\\html_asp\\banhang_online\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

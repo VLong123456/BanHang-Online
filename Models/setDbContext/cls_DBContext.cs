@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using banhang_online.Models.getWebData;
@@ -13,7 +14,6 @@ namespace banhang_online.Models.setDbContext
         public cls_DBContext (DbContextOptions<cls_DBContext> options) : base(options){
 
         }
-        
         public DbSet<DangNhap> DangNhap { get; set;}
 
         public DbSet<SanPham> SanPham { get; set;}

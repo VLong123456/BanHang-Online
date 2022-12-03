@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PUlr7dM1oLrDuFo3gsPE8Uv1b2rQTQe//nYjSd6xI0Y=",
+  "Hash": "AZyDmBT6sD330h3Lz+a5nJNVANT7TaMU8FgBLJm0wCc=",
   "Source": "BanHang_Online",
   "BasePath": "_content/BanHang_Online",
   "Mode": "Default",
@@ -2242,6 +2242,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap-5.2.3-examples\\sticky-footer\\sticky-footer.css"
+    },
+    {
+      "Identity": "E:\\html_asp\\banhang_online\\wwwroot\\css\\newDisplay.css",
+      "SourceId": "BanHang_Online",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\html_asp\\banhang_online\\wwwroot\\",
+      "BasePath": "_content/BanHang_Online",
+      "RelativePath": "css/newDisplay.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\newDisplay.css"
     },
     {
       "Identity": "E:\\html_asp\\banhang_online\\wwwroot\\css\\site.css",

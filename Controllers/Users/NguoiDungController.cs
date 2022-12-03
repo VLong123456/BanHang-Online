@@ -5,28 +5,36 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using banhang_online.Models.seDataViews;
 
 namespace banhang_online.Controllers.Users
 {
     [Route("[controller]")]
-    public class DangNhapController : Controller
+    public class NguoiDungController : Controller
     {
-        private readonly ILogger<DangNhapController> _logger;
+        private readonly ILogger<NguoiDungController> _logger;
 
-        public DangNhapController(ILogger<DangNhapController> logger)
+        public NguoiDungController(ILogger<NguoiDungController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet("id_1")]
+
+            [HttpGet("DangNhap")]
         public IActionResult DangNhap()
         {
             return View();
-        } 
-        
-        [HttpGet("id_2")]
+        }
+
+
+            [HttpGet("DangKy")]
         public IActionResult DangKy()
+        {
+            return View();
+        }
+
+
+            [HttpGet("GioHang")]
+        public IActionResult GioHang()
         {
             return View();
         }
