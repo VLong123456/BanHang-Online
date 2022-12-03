@@ -6,7 +6,7 @@
     <title> Bán Hàng Online </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/BanHangOnl.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BanHang_Online.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
     
 </head>
@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
-                <span class="navbar-brand user-select-none " href="#"> Bán Hàng Online </span>
+                <span class="navbar-brand user-select-none " > Bán Hàng Online </span>
                 @* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button> *@
@@ -24,7 +24,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                         <li class="nav-item">
-                            <a class="nav-link"  asp-controllern="Home" asp-action="Index"> Trang Chủ </a>
+                            <a class="nav-link"  asp-controller="Home" asp-action="Index"> Trang Chủ </a>
                         </li>
 
                         <li class="nav-item dropdown ">
@@ -62,6 +62,19 @@
                         <input name="p" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button  class="btn btn-outline-info " type="submit"> Search </button>
                     </form>
+                    <div class="dropdown ms-2 ">
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu  text-small">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </nav>
@@ -82,6 +95,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/bootstrap-5.2.3-examples/checkout/form-validation.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using banhang_online.Models.seDataViews;
 
 namespace banhang_online.Controllers.Users
 {
@@ -18,12 +19,13 @@ namespace banhang_online.Controllers.Users
             _logger = logger;
         }
 
-        [HttpPost("{id}")]
+        [HttpGet("id_1")]
         public IActionResult DangNhap()
         {
             return View();
-        }
-        [HttpGet("DangKy")]
+        } 
+        
+        [HttpGet("id_2")]
         public IActionResult DangKy()
         {
             return View();

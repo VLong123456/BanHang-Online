@@ -1,14 +1,22 @@
 
-@model banhang_online.Views.DangNhap.DangKyModels
+@* @model banhang_online.Models.seDataViews.cls_DangNhap *@
 @{
     ViewData["Title"] = "DangKy";
 }
-
+<style>
+    .container {
+    max-width: 960px;
+}
+</style>
 <h1>@ViewData["Title"]</h1>
 
 <main>
     <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+
+        @* <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> *@
+
+        <i class="bi bi-amd d-block mx-auto mb-4" alt="" width="72" height="57" ></i>
+        
         <h2>Checkout form</h2>
         <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
     </div>
