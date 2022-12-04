@@ -13,7 +13,7 @@ namespace banhang_online.Controllers.Users
     [Route("[controller]")]
     public class SanPhamController : Controller
     {
-        private readonly ILogger<SanPhamController> _logger;
+        private readonly ILogger<SanPhamController> _logger;  // never used
 
         private readonly cls_DBContext _db;
         
@@ -26,12 +26,10 @@ namespace banhang_online.Controllers.Users
             [HttpGet("SanPham")]
         public IActionResult SanPham()
         {
-            DangNhap Login = new DangNhap();
-            List<DangNhap> Login = from d in _db.DangNhap 
-                                    where _db.DangNhap = "a"
-                                    select d;
-            
-            return View(Login);
+            var stringdata = from data in _db.DangNhap
+                            where data.IdLogin == "0"
+                            select data;
+            return View(stringdata);
         }
 
             [HttpGet("DiDong")]
