@@ -24,32 +24,26 @@ namespace banhang_online.Controllers.Users
         }
 
             [HttpGet("SanPham")]
-        public IActionResult SanPham()
-        {
-            var stringdata = from data in _db.DangNhap
-                            where data.IdLogin == "0"
-                            select data;
-            return View(stringdata);
+        public IActionResult SanPham(string name)
+        {          
+            return View();
         }
 
             [HttpGet("DiDong")]
         public IActionResult SanPhamDiDong()
         {
-            
             return View();
         }
 
             [HttpGet("MayTinh")]
         public IActionResult SanPhamMayTinh()
         {
-            
             return View();
         }
         
             [HttpGet("PhamMem")]
         public IActionResult SanPhamPhanMem()
         {
-            
             return View();
         }
 

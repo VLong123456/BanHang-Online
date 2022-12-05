@@ -8,6 +8,9 @@
 <h3>@ViewData["Title"]</h3>
 
 <style>
+    .btn-mb-1{
+        margin-bottom: 1rem;
+    }
     .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -62,7 +65,7 @@
 
 <link rel="stylesheet" href="~/bootstrap-5.2.3-examples/checkout/form-validation.css">
 
-<main>
+<main class="container">
     <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
         <h2>Checkout form</h2>
@@ -268,10 +271,12 @@
 
             <hr class="my-4">
 
-            <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+            <button class="w-100 btn btn-primary btn-lg btn-mb-1" type="submit">Continue to checkout</button>
         </form>
+
         </div>
     </div>
+
 </main>
 
 <script src="~/bootstrap-5.2.3-examples/checkout/form-validation.js"></script>

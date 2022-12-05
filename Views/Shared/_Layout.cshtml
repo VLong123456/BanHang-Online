@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Bán Hàng Online </title>
+        <title> Bán Hàng Online </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/newDisplay.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BanHang_Online.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
     
@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark po position-relative ">
             <div class="container-fluid">
                 <span class="navbar-brand user-select-none " > Bán Hàng Online </span>
                 @* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,23 +85,26 @@
             </div>
         </nav>
     </header>
-    <div class="container pt-3 ">
-        <main role="main ">
+
+    <div>
+        <div role="main ">
 
             @RenderBody()
 
-        </main>
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top footer text-muted position-relative ">
+        <div class="container ">
             &copy; 2022 - BanHangOnl - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/bootstrap-5.2.3-examples/checkout/form-validation.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
