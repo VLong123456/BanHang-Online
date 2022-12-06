@@ -12,6 +12,13 @@
     
 </head>
 
+<style>
+    .footers{
+        position: relative;
+        padding: 1rem 0;
+    }
+</style>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark po position-relative ">
@@ -86,7 +93,7 @@
         </nav>
     </header>
 
-    <div>
+    <div >
         <div role="main ">
 
             @RenderBody()
@@ -94,7 +101,7 @@
         </div>
     </div>
 
-    <footer class="border-top footer text-muted position-relative ">
+    <footer class="border-top footers text-muted ">
         <div class="container ">
             &copy; 2022 - BanHangOnl - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
