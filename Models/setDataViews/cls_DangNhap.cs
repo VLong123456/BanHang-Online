@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace banhang_online.Models.seDataViews
+namespace banhang_online.Models.setDataViews
 {
     public class cls_DangNhap
     {

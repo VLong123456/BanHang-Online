@@ -24,9 +24,13 @@ namespace banhang_online.Controllers.Users
         }
 
             [HttpGet("SanPham")]
-        public IActionResult SanPham(string name)
+        public IActionResult SanPham()
         {          
-            return View();
+            var img_1 = from img in _db.AnhSanPham
+                        where img.IdSanPham == "1"
+                        select img;
+            return View( img_1 );
+
         }
 
             [HttpGet("DiDong")]

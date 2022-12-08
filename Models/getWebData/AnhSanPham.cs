@@ -10,6 +10,6 @@ namespace banhang_online.Models.getWebData
         [Key]
         public string IdSanPham { get; set; }
         public string TenSanPham { get; set; }
-        public string AnhSanPhams { get; set; }
+        public byte[] AnhSanPhams { get; set; }
     }
 }

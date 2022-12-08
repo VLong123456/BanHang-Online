@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BanHang_Online
 build_property.RootNamespace = BanHang_Online
-build_property.ProjectDir = E:\html_asp\banhang_online\
+build_property.ProjectDir = E:\HTML_ASP\BanHang_Online\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\html_asp\banhang_online
+build_property.MSBuildProjectDirectory = E:\HTML_ASP\BanHang_Online
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/html_asp/banhang_online/Views/ChinhSach/ChinhSach.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/ChinhSach/ChinhSach.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpbmhTYWNoXENoaW5oU2FjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/ChinhSach/ChinhSachBaoHanh.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/ChinhSach/ChinhSachBaoHanh.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpbmhTYWNoXENoaW5oU2FjaEJhb0hhbmguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/ChinhSach/ChinhSachBaoMat.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/ChinhSach/ChinhSachBaoMat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpbmhTYWNoXENoaW5oU2FjaEJhb01hdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/ChinhSach/ChinhSachThanhToan.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/ChinhSach/ChinhSachThanhToan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpbmhTYWNoXENoaW5oU2FjaFRoYW5oVG9hbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/GioiThieu/GioiThieu.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/GioiThieu/GioiThieu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRoaWV1XEdpb2lUaGlldS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/Home/Index.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/Home/Privacy.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/NguoiDung/DangKy.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/NguoiDung/DangKy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXERhbmdLeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/NguoiDung/DangNhap.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/NguoiDung/DangNhap.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXERhbmdOaGFwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/NguoiDung/GioHang.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/NguoiDung/GioHang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXEdpb0hhbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/SanPham/SanPham.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/SanPham/SanPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxTYW5QaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/SanPham/SanPhamDiDong.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/SanPham/SanPhamDiDong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxTYW5QaGFtRGlEb25nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/SanPham/SanPhamMayTinh.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/SanPham/SanPhamMayTinh.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxTYW5QaGFtTWF5VGluaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/SanPham/SanPhamPhanMem.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/SanPham/SanPhamPhanMem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxTYW5QaGFtUGhhbk1lbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/Shared/Error.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/_ViewImports.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/_ViewStart.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/html_asp/banhang_online/Views/Shared/_Layout.cshtml]
+[E:/HTML_ASP/BanHang_Online/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-v9hz0wyd9o
